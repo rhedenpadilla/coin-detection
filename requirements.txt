@@ -1,0 +1,19 @@
+# NGC Coin Detection — Python dependencies
+# Python 3.11 is REQUIRED. TensorFlow does not support Python 3.12+ yet.
+#
+# Setup instructions:
+#   1. py -3.11 -m venv venv
+#   2. .\venv\Scripts\activate
+#   3. pip install -r requirements.txt --timeout 600
+#
+# If TensorFlow times out during download, retry:
+#   pip install tensorflow --timeout 600 --retries 10
+
+# Core ML framework (≥350 MB download — a stable connection is needed)
+tensorflow==2.21.0
+
+# Computer vision
+opencv-python==5.0.0.93
+
+# Numerical computing (installed as a TF dependency, pinned for reproducibility)
+numpy==2.4.6
