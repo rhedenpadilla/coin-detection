@@ -1,4 +1,4 @@
-# 🪙 NGC Philippine Coin Detection & Counter
+# NGC Philippine Coin Detection & Counter
 
 A real-time computer-vision system that detects, classifies, and accumulates the total value of **Philippine NGC coins** (New Generation Currency) using a webcam feed. The system can run in two classification modes: a fast **heuristic** mode (no training needed) or a more accurate **CNN/deep-learning** mode powered by a fine-tuned MobileNetV2 model.
 
